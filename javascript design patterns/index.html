@@ -2,53 +2,14 @@
   <head>
   </head>
   <body>
-    <select id="catSelector"></select>
-    <img id ="kitten" src="http://lorempixel.com/400/200/cats/1" alt="little kitten">
-    <span id="counter"></span>
-    <script>
-      var cats = [
-        { id: '1', name: 'Cat 1', clicks: 0, img: 'http://lorempixel.com/400/200/cats/1' },
-        { id: '2', name: 'Cat 2', clicks: 0, img: 'http://lorempixel.com/400/200/cats/2' },
-        { id: '3', name: 'Cat 3', clicks: 0, img: 'http://lorempixel.com/400/200/cats/3' },
-        { id: '4', name: 'Cat 4', clicks: 0, img: 'http://lorempixel.com/400/200/cats/4' },
-        { id: '5', name: 'Cat 5', clicks: 0, img: 'http://lorempixel.com/400/200/cats/5' },
-      ];
-      var selectedCat = {};
-
-      for(var i=0; i<cats.length; i++) {
-        var select = document.getElementById('catSelector');
-        op = document.createElement('option');
-        op.innerText = cats[i].name;
-        op.value = cats[i].id;
-        select.appendChild(op);
-      }
-
-      select.addEventListener('change', function(event){
-        var selectedCatId = event.currentTarget.value;
-        updateUI(selectedCatId);
-      })
-
-      function updateUI(selectedCatId) {
-        selectedCat = cats.filter(function (cat){
-          return cat.id === selectedCatId
-        })[0];
-        var image = document.getElementById('kitten');
-        image.src = selectedCat.img;
-        updateCounter(selectedCat.clicks);
-      }
-
-      var image = document.getElementById('kitten');
-      image.addEventListener('click', function(event) {
-        updateCounter(++selectedCat.clicks);
-        console.log('cat clicked', selectedCat.clicks);
-      });
-
-      function updateCounter(value) {
-        var counterSpan = document.getElementById('counter');
-        counterSpan.innerText = value;
-      }
-
-      updateUI('1');
-    </script>
+    <div>
+      <select id="catSelector">
+        <option value="">--Select a cat--</option>
+      </select>
+    </div>
+    <img id ="kitten" src="" alt="little kitten">
+    <div>Clicks: <span id="counter"></span></div>
+    
+    <script src="index.js"></script>
   </body>
 </html>
