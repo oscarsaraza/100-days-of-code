@@ -27,3 +27,11 @@ Starting the javascript design patterns course in Udacity.
 This is becoming interesting... this is a must have in my programming tools.
 **Link to work:**
 [Work commit](https://github.com/oscarsaraza/100-days-of-code/commit/f9cd45ec0b8842062074e25c579548716b8052ad)
+
+### Day 2: February 14, 2017
+**Today's Progress**
+Continue the javascript design patterns course in Udacity.
+**Thoughts:**
+This is definitively a good bunch of exercises. I'll try to keep it up.
+**Link to work:**
+[Commit](https://github.com/oscarsaraza/100-days-of-code/commit/ad47072b9e2e779675ec95c33482e769269f12ff)
