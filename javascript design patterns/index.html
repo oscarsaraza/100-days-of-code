@@ -10,6 +10,26 @@
     <img id ="kitten" src="" alt="little kitten">
     <div>Clicks: <span id="counter"></span></div>
     
+    <div><button id="toggleAdminForm">Admin</button></div>
+    <form id="adminForm">
+      <div>
+        <label for="catName">Cat name:</label>
+        <input id="catName" type="text">
+      </div>
+      <div>
+        <label for="imgUrl">Cat image url:</label>
+        <input id="imgUrl" type="text">
+      </div>
+      <div>
+        <label for="clickCount">Cat click count:</label>
+        <input id="clickCount" type="number">
+      </div>
+      <div>
+        <input id="cancelBtn" type="button" value="Cancel"/>
+        <input id="saveBtn" type="submit" value="Save"/>
+      </div>
+    </form>
+
     <script src="index.js"></script>
   </body>
 </html>
