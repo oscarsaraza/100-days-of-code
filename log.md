@@ -44,3 +44,11 @@ After a while, I feel this is not my code... having a hard time to understand it
 I have to work to improve my ability to create better specs and documentation.
 **Link to work:**
 [Commit](https://github.com/oscarsaraza/validd/commit/0da5c0f988ab7df67b0d9a031af51a3f96258a49)
+
+### Day 4: February 16, 2017
+**Today's Progress**
+Continue the javascript design patterns course in Udacity.
+**Thoughts:**
+Implement an "admin" form in the cat clicker excercise.
+**Link to work:**
+[Commit](https://github.com/oscarsaraza/100-days-of-code/commit/47914d4a85a0148fd0a5f89fff71d92070db8e36)
