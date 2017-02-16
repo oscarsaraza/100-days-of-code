@@ -35,3 +35,12 @@ Continue the javascript design patterns course in Udacity.
 This is definitively a good bunch of exercises. I'll try to keep it up.
 **Link to work:**
 [Commit](https://github.com/oscarsaraza/100-days-of-code/commit/ad47072b9e2e779675ec95c33482e769269f12ff)
+
+### Day 3: February 15, 2017
+**Today's Progress**
+Add a couple of tests to the validd library
+**Thoughts:**
+After a while, I feel this is not my code... having a hard time to understand it.
+I have to work to improve my ability to create better specs and documentation.
+**Link to work:**
+[Commit](https://github.com/oscarsaraza/validd/commit/0da5c0f988ab7df67b0d9a031af51a3f96258a49)
